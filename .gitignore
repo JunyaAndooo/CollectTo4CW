@@ -1,0 +1,10 @@
+dist/
+node_modules/
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.env
