@@ -89,8 +89,8 @@ import {
     }
   } catch (error) {
     const e = error as Error;
-    console.error("name:", (error as Error).name);
-    console.error("message:", (error as Error).message);
-    console.error("stack:", (error as Error).stack);
+    console.error("name:", e.name);
+    console.error("message:", e.message);
+    console.error("stack:", e.stack);
   }
 })();
