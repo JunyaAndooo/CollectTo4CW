@@ -1,7 +1,7 @@
 name: collect-to
 on:
   schedule:
-    - cron: '*/30 8-23 * * 1-5'
+    - cron: '*/30 0-15 * * 1-5'
   workflow_dispatch:
   
 jobs:
